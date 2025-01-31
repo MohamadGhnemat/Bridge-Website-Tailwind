@@ -12,6 +12,7 @@ module.exports = {
         primary:'#1A237E',
         secondary:'#FFD600',
        mainText:'#111928',
+       paraColor:'#585858',
       
         },
         fontFamily: {

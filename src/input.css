@@ -6,7 +6,7 @@
 
 html ,body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+   
 }
 nav ul {
      font-family: "Roboto", serif;
@@ -24,8 +24,41 @@ nav ul {
     background-color:#FFD600 ;
 }
 .home {
-    height: calc(100vh - 78.5px);
+    height: calc(100vh - 78.5px)!important;
 }
+
+.headingBorder::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 50%;
+    height: 2px;
+    background-color:#FFD600 ; 
+}
+.headingBorder::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 50%;
+    height: 2px;
+    background-color:#1A237E ; 
+}
+.cardShadow{
+    box-shadow:  0 4px 4px rgba(0, 0, 0, 25%);
+  
+}
+.clientsData{
+    background: linear-gradient(to right,#2F3FE4,#1A237E  );
+    
+}
+.subscribtionData{
+    background: linear-gradient(to top,#2F3FE4,#1A237E  );
+}
+
+
+
 @layer base {
     h2{
         @apply font-extrabold leading-tight text-4xl text-gray-900
