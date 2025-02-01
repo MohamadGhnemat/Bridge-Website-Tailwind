@@ -18,13 +18,14 @@
   </div>
     <div id="menu" class="w-full 2md:w-fit hidden 2md:flex flex-col 2md:flex-row items-center gap-2 absolute top-[72px] left-[0] 2md:static z-50 2md:gap-20 shadow 2md:shadow-none ">
       <ul class=" flex items-center  gap-2 bg-white 2md:bg-transparent  2md:gap-9  text-black 2md:text-white text-[18px] flex-col 2md:flex-row" >
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Certificates</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">About us</a></li>
+        <li class="active"><a href="#" >Home</a></li>
+        <li class="active hover:before:w-[21px] " ><a href="#services">Services</a></li>
+        <li class="active hover:before:w-[21px]"><a href="#works">How it works</a></li>
+        <li class="active hover:before:w-[21px]"><a href="#testimonial">Testimonial</a></li>
+        <li class="active hover:before:w-[21px]"><a href="#blog">Blog</a></li>
       </ul>
-      <button class="hidden bg-secondary font-bold  text-[15px] py-2 px-8 rounded  text-primary w-fit text-center 2md:block"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
+      <button class=" hidden transition  duration-500 bg-secondary border border-secondary font-bold  text-[15px] py-2 px-8 rounded 
+       text-primary w-fit text-center 2md:block  hover:bg-primary hover:text-secondary hover:border hover:border-secondary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
     </div>
   </div>
     
@@ -34,7 +35,7 @@
   <section>
     
 
-<div id="default-carousel" class="relative w-full" data-carousel="static">
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
   <!-- Carousel wrapper -->
   <div class="relative  overflow-hidden h-[400px]  home ">
        <!-- Item 1 -->
@@ -46,7 +47,7 @@
             
             <h1 class="2md:text-[42px] font-bold text-white" style="font-family: 'Roboto', sans-serif;">Smart Gateway To Connect Customers And <span class="text-secondary"> Make Profitable Deals</span></h1>
             <p class="2md:text-[16px] font-medium text-[#B5B5B5] leading-8" style="font-family: 'Roboto', sans-serif;">Discover the ease of connecting with buyers and sellers from all over the world through our innovative platform. Log in now for a seamless and integrated experience.</p>
-            <button class="bg-secondary font-bold  2md:text-[26px] px-7 py-3 2md:px-14 rounded  text-primary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
+            <button class="bg-secondary font-bold transition  duration-500 border border-secondary 2md:text-[26px] px-7 py-3 2md:px-14 rounded  text-primary hover:bg-primary hover:text-secondary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
           </div>
           </div> 
       </div>
@@ -59,7 +60,8 @@
             
             <h1 class="2md:text-[42px] font-bold text-white" style="font-family: 'Roboto', sans-serif;">2 Smart Gateway To Connect Customers And <span class="text-secondary"> Make Profitable Deals</span></h1>
             <p class="2md:text-[16px] font-medium text-[#B5B5B5] leading-8" style="font-family: 'Roboto', sans-serif;">Discover the ease of connecting with buyers and sellers from all over the world through our innovative platform. Log in now for a seamless and integrated experience.</p>
-            <button class="bg-secondary font-bold  2md:text-[26px] px-7 py-3 2md:px-14 rounded  text-primary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
+            <button class="bg-secondary transition  duration-500 border border-secondary  font-bold  2md:text-[26px] px-7 py-3 2md:px-14 
+            rounded  text-primary hover:bg-primary hover:text-secondary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
           </div>
           </div> 
       </div>
@@ -72,7 +74,7 @@
             
             <h1 class="2md:text-[42px] font-bold text-white" style="font-family: 'Roboto', sans-serif;">3 Smart Gateway To Connect Customers And <span class="text-secondary"> Make Profitable Deals</span></h1>
             <p class="2md:text-[16px] font-medium text-[#B5B5B5] leading-8" style="font-family: 'Roboto', sans-serif;">Discover the ease of connecting with buyers and sellers from all over the world through our innovative platform. Log in now for a seamless and integrated experience.</p>
-            <button class="bg-secondary font-bold  2md:text-[26px] px-7 py-3 2md:px-14 rounded  text-primary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
+            <button class="bg-secondary transition  duration-500 border border-secondary hover:bg-primary hover:text-secondary font-bold  2md:text-[26px] px-7 py-3 2md:px-14 rounded  text-primary"  style="font-family: 'Roboto', sans-serif;">Get In Touch</button>
           </div>
           </div> 
       </div>
@@ -91,67 +93,67 @@
 
   </section>
 
-  <section>
+  <section >
     <div class="wrapper py-[70px]">
-      <h2 class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit " style="font-family: 'Roboto', sans-serif;">Our Services</h2>
+      <h2  id="services" class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit " style="font-family: 'Roboto', sans-serif;">Our Services</h2>
       <div class="pt-20 grid grid-cols-1 2md:grid-cols-3 gap-6">
-        <div class="p-5  cardShadow border border-t-0 rounded-md rounded-t-none">
+        <div class=" transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5  cardShadow border border-t-0 rounded-md rounded-t-none">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Connect Clients</h3>
           <p class="text-paraColor text-[12px] sm:text-[16px] font-normal my-3 sm:my-7 " style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary">
             arrow_outward
             </span>
         </div>
-        <div class="p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-4">
+        <div class="transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-4">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Deal Evaluation</h3>
           <p class="text-paraColor text-[12px] sm:text-[16px] font-normal my-3 sm:my-5" style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary">
             arrow_outward
             </span>
         </div>
-        <div class="p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-8">
+        <div class="transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-8">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Full Support</h3>
           <p class="text-paraColor text-[12px] sm:text-[16px] font-normal my-3" style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary ">
             arrow_outward
             </span>
         </div>
-        <div class="p-5 cardShadow border border-t-0 rounded-md rounded-t-none">
+        <div class="transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5 cardShadow border border-t-0 rounded-md rounded-t-none">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Consultations</h3>
           <p class="text-paraColor text-[12px] sm:text-[16px] font-normal my-3 sm:my-7 " style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary">
             arrow_outward
             </span>
         </div>
-        <div class="p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-4">
+        <div class="transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-4">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Exclusive Offers</h3>
           <p class="text-paraColor text-[12px] sm:text-[16px] font-normal my-3 sm:my-5" style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary">
             arrow_outward
             </span>
         </div>
-        <div class="p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-8">
+        <div class="transition-transform transform hover:scale-105 hover:shadow-xl duration-500 p-5 cardShadow border border-t-0 rounded-md rounded-t-none mb-8">
           <span class=" material-icons-outlined text-primary">
             share
             </span>
             <h3 class="text-primary font-semibold text-[18px] sm:text-[25px]" style="font-family: 'Roboto', sans-serif;">Reports & Analysis</h3>
           <p class="text-paraColor  text-[12px] sm:text-[16px] font-normal my-3" style="font-family: 'Roboto', sans-serif;">Using technology to facilitate communication between sellers and buyers, with an easy-to-use user interface that ensures effective and fast communication.</p>
-          <span class="text-primary material-icons-outlined rounded-sm ">
+          <span class="text-primary material-icons-outlined rounded-sm transition-all  hover:text-secondary">
             arrow_outward
             </span>
         </div>
@@ -160,66 +162,66 @@
 
   </section>
 
-  <section>
-    <div class="wrapper ">
+  <section >
+    <div id="works" class="wrapper ">
       <h2 class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit " style="font-family: 'Roboto', sans-serif;">How Bridge works</h2>
       <div class="py-[70px] grid grid-cols-1 xl:grid-cols-2 gap-5">
-        <div class=" cardShadow py-7 px-5 relative">
+        <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
           <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">01</div>
           <div class="w-full sm:w-[50%]">
             <h3 class="text-primary font-semibold text-[20px] sm:text-[28px]" style="font-family: 'Roboto', sans-serif;">Register Now</h3>
             <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-3" style="font-family: 'Roboto', sans-serif;">Start creating a free account in a few simple steps. Fill in your basic information and start using the platform immediately.</p>
-            <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Sign Up</button>
+            <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary" style="font-family: 'Roboto', sans-serif;">Sign Up</button>
 
           </div>
         <img src="./assets/sign up.svg" class="  top-[4.5rem] right-[21px] z-[-1] w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px]" alt="card-image">
           </div>
-          <div class=" cardShadow py-7 px-5 relative">
+          <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
             <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">02</div>
             <div class="w-full sm:w-[50%]">
               <h3 class="text-primary font-semibold text-[20px] sm:text-[28px]" style="font-family: 'Roboto', sans-serif;">Browse Deals</h3>
               <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-3" style="font-family: 'Roboto', sans-serif;">Use our easy-to-use interface to search and browse available offers and deals. Select the properties you are interested in from thousands</p>
-              <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Learn More</button>
+              <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary " style="font-family: 'Roboto', sans-serif;">Learn More</button>
   
             </div>
           <img src="./assets/browser deals.svg" class=" top-[4.5rem] right-[21px] z-[-1]  w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px] " alt="card-image">
             </div>
-            <div class=" cardShadow py-7 px-5 relative">
+            <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
               <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">03</div>
               <div class="w-full sm:w-[50%]">
                 <h3 class="text-primary font-semibold text-[20px] sm:text-[26px]" style="font-family: 'Roboto', sans-serif;">Direct Communication</h3>
                 <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-7 " style="font-family: 'Roboto', sans-serif;">Connect directly with buyers and sellers through our secure messaging system. Easily ask questions and request more information.</p>
-                <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Learn More</button>
+                <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary " style="font-family: 'Roboto', sans-serif;">Learn More</button>
     
               </div>
             <img src="./assets/communication.svg" class="top-[4.5rem] right-[21px] z-[-1] w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px]" alt="card-image">
               </div>
-              <div class=" cardShadow py-7 px-5 relative">
+              <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
                 <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">04</div>
                 <div class="w-full sm:w-[50%] lg:w-[40%]">
                   <h3 class="text-primary font-semibold text-[20px] sm:text-[28px]" style="font-family: 'Roboto', sans-serif;">Closing Deals</h3>
                   <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-7" style="font-family: 'Roboto', sans-serif;">Schedule an interview and agree on final terms. We have tools to make the process easy for both buyer and seller.</p>
-                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Learn More</button>
+                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary" style="font-family: 'Roboto', sans-serif;">Learn More</button>
       
                 </div>
               <img src="./assets/confirm deal.svg" class=" top-[4.5rem] right-[21px] z-[-1] w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px]" alt="card-image">
                 </div>
-              <div class=" cardShadow py-7 px-5 relative">
+              <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
                 <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">05</div>
                 <div class="w-full sm:w-[50%]">
                   <h3 class="text-primary font-semibold text-[20px] sm:text-[28px]" style="font-family: 'Roboto', sans-serif;">Confirm The Deal</h3>
                   <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-3" style="font-family: 'Roboto', sans-serif;">Once an agreement is reached, you can securely confirm the deal through our platform with all required documents.</p>
-                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Learn More</button>
+                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary " style="font-family: 'Roboto', sans-serif;">Learn More</button>
       
                 </div>
               <img src="./assets/closing deals.svg" class=" top-[4.5rem] right-[21px] z-[-1] w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px]" alt="card-image">
                 </div>
-              <div class=" cardShadow py-7 px-5 relative">
+              <div class=" cardShadow transition-all duration-300 hover:shadow-lg hover:shadow-primary py-7 px-5 relative">
                 <div class=" text-[18px] font-bold absolute rounded-b-lg bg-primary text-secondary w-[39px] h-[44px] top-0 right-[21px] flex justify-center items-center" style="font-family: 'Roboto', sans-serif;">06</div>
                 <div class="w-full sm:w-[50%]">
                   <h3 class="text-primary font-semibold text-[20px] sm:text-[28px] xl:text-[25px]" style="font-family: 'Roboto', sans-serif;">Support & Assistance</h3>
                   <p class="text-[#6b6b6b] leading-[35px]  text-[12px] sm:text-[16px] font-normal my-6 lg:my-3" style="font-family: 'Roboto', sans-serif;">If you encounter any problem or have any questions, our support team is available 24/7 to provide immediate assistance. Use the live chat</p>
-                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit " style="font-family: 'Roboto', sans-serif;">Get Support</button>
+                  <button class="bg-primary text-secondary font-bold text-[20px] lg:text-[16px] py-3 px-14 rounded-lg w-full sm:w-fit transition-all duration-300 border border-primary hover:bg-white hover:text-primary hover:border hover:border-primary " style="font-family: 'Roboto', sans-serif;">Get Support</button>
       
                 </div>
               <img src="./assets/live chat.svg" class=" top-[4.5rem] right-[21px] z-[-1] w-full sm:w-[211px] mt-[2.75rem] sm:mt-0 sm:absolute h-[160px]" alt="card-image">
@@ -228,8 +230,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="wrapper ">
+  <section >
+    <div id="testimonial" class="wrapper ">
       <h2 class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit " style="font-family: 'Roboto', sans-serif;">What Clients Said</h2>
       <div class="mt-16 mb-28 flex flex-col lg:flex-row gap-5">
         <div class="flex gap-5 items-center justify-center lg:justify-start lg:w-[80%] ">
@@ -268,8 +270,8 @@
           <h2 class="font-semibold text-xl sm:text-3xl text-[#FFFFFF]">Subscribe to our Newsletter </h2>
           <p class="font-normal leading-7 text-[16px] my-10">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipiscing velit quis.Duis tempor incididunt dolore.</p>
           <div class="flex flex-col lg:flex-row gap-5">
-            <input type="text" class="border-white  bg-transparent rounded-md placeholder:text-gray-200 focus:outline-none focus:border-white py-2 px-5 lg:w-1/2" placeholder="Enter your email">
-            <button class="bg-white  rounded-md  text-primary text-[16px] font-semibold py-[9px] px-5 lg:w-36">Subscribe</button>
+            <input type="email" class="border-white  bg-transparent rounded-md placeholder:text-gray-200 focus:outline-none focus:border-white py-2 px-5 lg:w-1/2" placeholder="Enter your email">
+            <button class="bg-white  rounded-md  text-primary text-[16px] font-semibold py-[9px] px-5 lg:w-36 transition-all duration-300 border border-white hover:bg-transparent hover:text-white ">Subscribe</button>
           </div>
        </div>
        <div class="flex flex-wrap lg:flex-nowrap gap-9 lg:gap-5 mt-9 text-center lg:text-left">
@@ -389,11 +391,11 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="wrapper mb-28" style="font-family: 'Roboto', sans-serif;">
-      <h2 class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit mb-16 " >Our Blog Posts</h2>
+  <section >
+    <div id="blog" class="wrapper mb-28" style="font-family: 'Roboto', sans-serif;">
+      <h2 class="text-primary text-[25px] sm:text-[40px] font-semibold headingBorder relative w-fit mb-16  " >Our Blog Posts</h2>
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  justify-between">
-              <div class="   shadow-sm ">
+              <div class="transition-all duration-300 hover:shadow-lg hover:shadow-secondary hover:scale-105   shadow-sm ">
                     <a href="#">
                         <img class="w-full" src="./assets/blog1.png" alt="blog-image" />
                     </a>
@@ -412,7 +414,7 @@
                         </a>
                     </div>
               </div>
-              <div class="  shadow-sm ">
+              <div class="transition-all duration-300 hover:shadow-lg hover:shadow-secondary hover:scale-105  shadow-sm ">
                 <a href="#">
                     <img class="w-full" src="./assets/blog2.png" alt="blog-image" />
                 </a>
@@ -431,7 +433,7 @@
                     </a>
                 </div>
                </div>
-               <div class="  shadow-sm ">
+               <div class="transition-all duration-300 hover:shadow-lg hover:shadow-secondary hover:scale-105  shadow-sm ">
                 <a href="#">
                     <img class="w-full" src="./assets/blog3.jpg" alt="blog-image" />
                 </a>
@@ -453,7 +455,7 @@
 
        </div>
        <div class="flex justify-end">
-        <button class="bg-primary text-secondary rounded-lg font-semibold text-xl py-4 px-[68px] mt-9">More</button>
+        <button class="bg-primary text-secondary rounded-lg font-semibold text-xl py-4 px-[68px] mt-9 transition  duration-500  border border-primary hover:bg-white hover:text-primary ">More</button>
        </div>
     </div>
   </section>
@@ -480,18 +482,18 @@
                     <div>
                       <h3 class="text-xl font-bold mb-4">Important Links</h3>
                      <ul class="font-normal text-[16px] leading-5 text-white flex flex-col gap-2">
-                      <li><a href="#">Live Support</a> </li>
-                      <li><a href="#">Pricing</a> </li>
-                      <li><a href="#">Terms</a> </li>
-                      <li><a href="#">Privacy</a> </li>
-                      <li><a href="#">My Account</a> </li>
+                      <li><a href="#" class="hover:text-secondary hover:ml-1 transition-all duration-300">Live Support</a> </li>
+                      <li><a href="#" class="hover:text-secondary hover:ml-1 transition-all duration-300">Pricing</a> </li>
+                      <li><a href="#" class="hover:text-secondary hover:ml-1 transition-all duration-300">Terms</a> </li>
+                      <li><a href="#" class="hover:text-secondary hover:ml-1 transition-all duration-300">Privacy</a> </li>
+                      <li><a href="#" class="hover:text-secondary hover:ml-1 transition-all duration-300">My Account</a> </li>
                      </ul>
                     </div>
                     <div>
                       <h3 class="text-xl font-bold mb-4">Newsletter</h3>
                       <p class="font-normal text-[15px] leading-7 text-[#D7D7D7] mb-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                      <div class="flex">
-                      <input class="rounded-lg rounded-r-none border-r-0 w-full" type="text" placeholder="Enter your email">
+                      <input class="rounded-lg rounded-r-none border-r-0 w-full" type="email" placeholder="Enter your email">
                     <img class="bg-secondary rounded-l-none rounded-lg py-2 px-5"  src="./assets/send.svg" alt="send-icon">
                      </div>
                     </div>
@@ -501,10 +503,10 @@
            <div class="mt-7 flex flex-col md:flex-row gap-5 items-center justify-between">
             <span class="font-medium text-sm font-Inter">Copyright &copy; 2024 All rights reserved - <span class="text-secondary font-sans"> Mohamad Ghnemat</span></span>
             <ul class="flex  items-center gap-6 ">
-              <li><a href="#"><img src="./assets/facebook.svg" alt="facebook-image"></a></li>
-              <li><a href="#"><img src="./assets/twitter.svg" alt="twitter-image"></a></li>
-              <li><a href="#"><img src="./assets/linkedin.svg" alt="linkedin-image"></a></li>
-              <li><a href="#"><img src="./assets/globe-solid.svg" alt="earth-image"></a></li>
+              <li ><a href="#" ><img class="p-1 px-[6px] rounded-full hover:bg-[#cccc00]"  src="./assets/facebook.svg" alt="facebook-image"></a></li>
+              <li><a href="#"><img class="p-1 rounded-full hover:bg-[#cccc00]" class="p-1" src="./assets/twitter.svg" alt="twitter-image"></a></li>
+              <li><a href="#"><img class="p-1 rounded-full hover:bg-[#cccc00]" class="p-1" src="./assets/linkedin.svg" alt="linkedin-image"></a></li>
+              <li><a href="#"><img  class="p-1 rounded-full hover:bg-[#cccc00]"  class="p-1" src="./assets/globe-solid.svg" alt="earth-image"></a></li>
             </ul>
            </div>
        </div>

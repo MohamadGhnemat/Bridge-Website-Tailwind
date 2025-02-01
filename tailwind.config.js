@@ -8,6 +8,7 @@ module.exports = {
       screens: {
         "2md":"960px"
       },
+      
       colors: {
         primary:'#1A237E',
         secondary:'#FFD600',

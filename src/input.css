@@ -6,7 +6,7 @@
 
 html ,body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+   scroll-behavior: smooth;
 }
 nav ul {
      font-family: "Roboto", serif;
@@ -14,14 +14,20 @@ nav ul {
 .active{
     position: relative;
 }
+.active:first-of-type::before{
+    width: 21px;
+}
 .active::before{
     content: "";
     position: absolute;
-    left: 15px;
-    top: 22px;
-    width: 21px;
+    left: 52%;
+    top: 25px;
+    width: 0;
     height: 2px;
     background-color:#FFD600 ;
+    transform: translate(-50%);
+    transition: all;
+    transition-duration: 400ms;
 }
 .home {
     height: calc(100vh - 78.5px)!important;
@@ -48,6 +54,9 @@ nav ul {
 .cardShadow{
     box-shadow:  0 4px 4px rgba(0, 0, 0, 25%);
   
+}
+.cardShadowHover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .clientsData{
     background: linear-gradient(to right,#2F3FE4,#1A237E  );
@@ -78,4 +87,5 @@ nav ul {
     .heading {
         @apply text-2xl font-bold  leading-tight text-mainText
     }
+    
 }
