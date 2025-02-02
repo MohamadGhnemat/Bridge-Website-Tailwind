@@ -1,4 +1,4 @@
-This project is to apply a front-end technologies(HTML , CSS , Tailwind , JS)
+This project is to apply a front-end technologies(HTML , CSS , Tailwind , Flowbite , JS)
 
 Figma Design : https://www.figma.com/design/KvYqoTu7HaP2weIFhXMZvm/Bridge---Website?node-id=1-2&t=Shi3A8GBNuyrZbsa-0
 
