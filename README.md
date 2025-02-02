@@ -5,14 +5,18 @@ Figma Design : https://www.figma.com/design/KvYqoTu7HaP2weIFhXMZvm/Bridge---Webs
 
 
 
-https://github.com/user-attachments/assets/6211f0f5-4055-4244-a0be-dc06af72772c
+https://github.com/user-attachments/assets/af8aaa63-0286-46c0-bff1-1d1207fdaa18
+
+
 
 
 For the Responsive Test
 
 
 
-https://github.com/user-attachments/assets/0d1ca1a9-3d19-412c-9fc9-77ffa3f9e4ad
+https://github.com/user-attachments/assets/aa10aea6-6809-420d-b4c3-5b6eb2cf9d05
+
+
 
 
 
