@@ -1,7 +1,19 @@
 This project is to apply a front-end technologies(HTML , CSS , Tailwind , JS)
 
+Figma Design : https://www.figma.com/design/KvYqoTu7HaP2weIFhXMZvm/Bridge---Website?node-id=1-2&t=Shi3A8GBNuyrZbsa-0
 
-https://github.com/user-attachments/assets/293eb3e1-5c28-4477-b650-3f5f229e23ff
+
+
+
+https://github.com/user-attachments/assets/6211f0f5-4055-4244-a0be-dc06af72772c
+
+
+For the Responsive Test
+
+
+
+https://github.com/user-attachments/assets/0d1ca1a9-3d19-412c-9fc9-77ffa3f9e4ad
+
 
 
 ![image](https://github.com/user-attachments/assets/d23611ab-e177-425f-a794-5f5a1776537f)
